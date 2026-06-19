@@ -1,0 +1,40 @@
+## DAY 1 ASSIGNMENTS## Assignment 1a (Variables)
+Task: Create a script that tracks a restaurant order.
+
+   1. Declare a variable for the restaurant name. It should never change.
+   2. Declare a variable for the total bill amount. Start it at 0.
+   3. Update the bill amount to 25.
+   4. Log both variables to the console.
+
+## Assignment 1b (Objects)
+Task: Create a product database record.
+
+   1. Create an object named smartWatch.
+   2. Give it the following keys: brand (string), price (number), and inStock (boolean).
+   3. Change the inStock value to the opposite boolean.
+   4. Log the updated object.
+
+## Assignment 1c (Arithmetic & Templates)
+Task: Calculate a discount message.
+
+   1. Create a variable for originalPrice set to 100.
+   2. Create a variable for discount set to 20.
+   3. Calculate the finalPrice using subtraction.
+   4. Create a message using backticks (template literals) that prints: "The final price of the item is $X!" (Replace X with your variable).
+
+## Assignment 1d (Arrays of Objects)
+Task: Structure a simple playlist.
+
+   1. Create an array called playlist.
+   2. Put six objects inside the array. Each object represents a song and must have a title key and an artist key.
+   3. Log the title of the very first song in the array.
+   4. Log all the songs' artists and titles to the console.
+
+## Assignment 1e (Destructuring)
+Task: Unpack a movie profile.
+
+   1. Copy this object into your code: const movie = { title: "Inception", year: 2010, rating: 8.8 };
+   2. Use object destructuring to extract title and year in a single line.
+   3. Log both extracted variables.
+
+

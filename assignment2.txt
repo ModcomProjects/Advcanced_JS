@@ -1,0 +1,28 @@
+## DAY 2 ASSIGNMENTS
+## Assignment 2a (Conditionals)
+Task: Build a dark mode toggle logic.
+
+   1. Create a boolean variable called isDarkMode set to false.
+   2. Use a ternary operator to save either "black" or "white" into a variable called backgroundColor.
+   3. Use the Logical AND (&&) operator to print "Moon icon visible" only if isDarkMode is true.
+
+## Assignment 2b (Functions)
+Task: Practice different function styles.
+
+   1. Write a traditional named function called addFive that takes a number parameter and returns that number plus 5.
+   2. Rewrite that exact logic as an arrow function with an implicit return (one single line, no brackets, no return keyword).
+
+## Assignment 2c (Map & Filter)
+Task: Clean up a list of student grades.
+
+   1. Copy this array into your code: const grades = [45, 80, 55, 92, 70];
+   2. Use .filter() to create a new array called passingGrades containing only scores above 60.
+   3. Use .map() on your new passingGrades array to add 5 bonus points to every passing student. Log the final array.
+
+## Assignment 2d (Async/Await Capstone)
+Task: Fetch and process a list of online posts.
+
+   1. Write an async arrow function called getJokeList.
+   2. Inside a try/catch block, use fetch to get data from this URL: "https://official-joke-api.appspot.com/random_joke"
+   3. Convert the response to JSON
+   4. Use object destructuring to extract the setup and punchline of each joke.
